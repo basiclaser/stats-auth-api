@@ -1,0 +1,14 @@
+//moves, time
+PUT http://localhost:4000/userstats
+Content-Type: application/json
+
+{
+  "moves": 10,
+  "time": 100
+}
+
+// GET
+GET http://localhost:4000/userstats
+
+// GET my userstats
+GET http://localhost:4000/userstats/81723982173981273
